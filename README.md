@@ -59,7 +59,7 @@ The database (`Brey&Brew.db`) follows strict **3rd Normal Form (3NF)** to ensure
 4.  **OrderItem Table:** An associative entity linking Orders and Products.
 
 ### Key Design Decision: Snapshot Pricing
-We implemented a `unit_price` column in the `OrderItem` table. This ensures that financial reports remain accurate regardless of future price adjustments in the `Product` table.
+I implemented a `unit_price` column in the `OrderItem` table. This ensures that financial reports remain accurate regardless of future price adjustments in the `Product` table.
 
 ---
 
@@ -69,17 +69,18 @@ We implemented a `unit_price` column in the `OrderItem` table. This ensures that
     ```bash
     git clone [https://github.com/asilo-sofhia/Brey-and-Brew-Management-System.git](https://github.com/asilo-sofhia/Brey-and-Brew-Management-System.git)
     ```
-2.  **Navigate to the source code:**
+    
+2.  **Enter the project folder and install dependencies:**
+    *(Do this immediately after cloning, while you are in the main folder)*
     ```bash
     cd Brey-and-Brew-Management-System
+    pip install -r requirements.txt
+    ```
+
+3.  **Navigate to the source code:**
+    ```bash
     cd "Brey&Brew"
     cd src
-    ```
-    
-3.  **Install dependencies:**
-    You need the `Pillow` library for image handling.
-    ```bash
-    pip install -r requirements.txt
     ```
 
 4.  **Run the Application:**
