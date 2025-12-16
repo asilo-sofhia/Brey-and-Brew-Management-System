@@ -67,8 +67,7 @@ We implemented a `unit_price` column in the `OrderItem` table. This ensures that
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/brey-and-brew.git](https://github.com/your-username/brey-and-brew.git)
-    cd brey-and-brew
+    git clone [https://github.com/asilo-sofhia/Brey-and-Brew-Management-System.git](https://github.com/asilo-sofhia/Brey-and-Brew-Management-System.git)
     ```
 
 2.  **Install dependencies:**
