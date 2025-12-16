@@ -69,14 +69,20 @@ We implemented a `unit_price` column in the `OrderItem` table. This ensures that
     ```bash
     git clone [https://github.com/asilo-sofhia/Brey-and-Brew-Management-System.git](https://github.com/asilo-sofhia/Brey-and-Brew-Management-System.git)
     ```
-
-2.  **Install dependencies:**
+2.  **Navigate to the source code:**
+    ```bash
+    cd Brey-and-Brew-Management-System
+    cd "Brey&Brew"
+    cd src
+    ```
+    
+3.  **Install dependencies:**
     You need the `Pillow` library for image handling.
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Run the Application:**
+4.  **Run the Application:**
     ```bash
     python main.py
     ```
